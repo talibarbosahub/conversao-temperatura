@@ -18,3 +18,5 @@ jobs:
         cd src;
         npm install -g mocha;
         npm install
+    - name: Execucao testes
+      run: mocha/src/test/convert.js
